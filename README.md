@@ -1,7 +1,7 @@
 # mkey-generator-plus-backend
-MKey Generator Plus (Backend) is an Express.JS server that handle the data of [mkey (zoogie version)](https://github.com/zoogie/mkey)
+MKey Generator Plus (Backend) is an Express.JS server that handle the data of [mkey (zoogie version)](https://github.com/zoogie/mkey).
 
-**Only for 3DS (CTR - 1.0-11.16 - US,EU,JP,KR,TW,CN) for now !**
+⚠ **Only for 3DS (CTR - 1.0-11.16 - US,EU,JP,KR,TW,CN) for now !**
 
 ## Usage
 
