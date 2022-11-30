@@ -10,6 +10,19 @@ app.get('/', (req, res) => {
     inquiryNb = req.query.inquiryNumber
     device = req.query.device
 
+    if(month > 12 || month < 1)
+        res.send({error: 'The parameter \'m\' must between 1 and 12.'}) 
+
+    if(day > 31 || day < 1)
+        res.send({error: 'The parameter \'d\' must between 1 and 31.'}) 
+
+    if(inquiryNb.length != 10)
+        res.send({error: 'The parameter \'inquiryNb\' must have a length of 10.'})
+    
+    /* May change in the future */
+    if(device != 'CTR')
+        res.send({error: 'The parameter \'device\' needs to be set to \'CTR\'.'})
+
     res.set('Access-Control-Allow-Origin', '*');
 
     let options = {
