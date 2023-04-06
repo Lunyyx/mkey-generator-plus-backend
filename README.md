@@ -41,7 +41,7 @@ Your server should be accessible from: https://127.0.0.1:3001
 
 ### Example
 
-> GET http://localhost:3001/?m=8&d=01&inquiryNumber=1234567890&device=CTR
+> GET http://localhost:3001/mkey/api?m=8&d=01&inquiryNumber=1234567890&device=CTR
 ```json
 {"master_key":96773}
 ```
