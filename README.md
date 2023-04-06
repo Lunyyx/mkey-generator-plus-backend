@@ -28,7 +28,7 @@ pip install pycryptodome
 node index
 ```
 
-Your server should be accessible from: https://127.0.0.1:3001/mkey/api
+Your server should be accessible from: http://127.0.0.1:3001/mkey/api
 
 ## Available parameters
 
